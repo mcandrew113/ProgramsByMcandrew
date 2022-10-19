@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.runtimes": [
+
+        
+
+
+			{},
+		
+		   
+		
+		],
+		"git.ignoreLimitWarning": true,
+		"java.debug.settings.exceptionBreakpoint.skipClasses": [
+		
+		],
+		"openjdkDevel.github.apiToken": "school projects",
+		"openjdkDevel.github.username": "mcandrew113"
+	}
+}
