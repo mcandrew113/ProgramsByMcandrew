@@ -1,4 +1,4 @@
-//package ShapesProject;
+package ShapesProject;
 public abstract class Shape2D{	
 	public abstract double get2DArea();
 

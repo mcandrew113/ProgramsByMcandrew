@@ -1,5 +1,12 @@
 package ninePuzzle;
 import java.util.Scanner;
+/**
+ * create a 3x3 box number sorting puzzle with 9 spaces
+ * 
+ * @author Mcandrew Okwei
+ * @version 2.4 (May 24 2022)
+ * 
+ */
 public class nineBox{
 public static void main (String[] args) {
 	Scanner inp = new Scanner(System.in);
@@ -58,6 +65,11 @@ while (!a.startsWith("0") ) {
 } inp.close();
 
 }
+/**
+ * toString method with another name 
+ * 
+ * @param puz
+ */
 public static void stringArr(char[][] puz) {
 	
 for(int x=0; x<=puz.length-1;x++) {

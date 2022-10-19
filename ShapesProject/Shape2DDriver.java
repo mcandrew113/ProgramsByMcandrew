@@ -1,4 +1,4 @@
-//package ShapesProject;
+package ShapesProject;
 
 public class Shape2DDriver extends Shape2D{ 
 

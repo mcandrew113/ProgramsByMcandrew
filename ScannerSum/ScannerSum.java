@@ -1,5 +1,9 @@
-package ScannerSum; // Comment this first line to run in https://www.codepost.io/code/608154 otherwise compilation will fail
-
+package ScannerSum; 
+/**
+ * Combine 3 user validated integers then display the result
+ * @author Mcandrew Okwei
+ * @version 2.9 (29 September 2022)
+ */
 import java.util.Scanner; // importing the scanner class
 
  public class ScannerSum { // Class author: Mcandrew Okwei 29 September 2022
@@ -7,7 +11,14 @@ import java.util.Scanner; // importing the scanner class
     static int Num1;
     static int Num2;
     static int Num3;
-
+/**
+ * <p> use a Scanner obj to add 3 user parameter values and display the total.</p>
+ * @param Nums
+ * @param Num1
+ * @param Num2
+ * @param Num3
+ * 
+ */
     public static void AddNums(Scanner Nums, int Num1, int Num2, int Num3) {
         System.out.println("Please enter any whole number, positive or negative only!"); // prompt user to enter an int
                                                                                          // value

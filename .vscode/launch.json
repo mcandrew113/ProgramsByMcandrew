@@ -6,16 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch SimpleBankAccount",
+            "name": "Launch loops",
             "request": "launch",
-            "mainClass": "SimpleBankAccount.SimpleBankAccount",
+            "mainClass": "loopsMhm.loops",
             "projectName": "ProgramsByMcandrew"
         },
         {
             "type": "java",
-            "name": "Launch BankAccounts03",
+            "name": "Launch GradeOrganizer",
             "request": "launch",
-            "mainClass": "SimpleBankAccount.BankAccounts03",
+            "mainClass": "assignmentSix.java.GradeOrganizer",
             "projectName": "ProgramsByMcandrew"
         },
         {

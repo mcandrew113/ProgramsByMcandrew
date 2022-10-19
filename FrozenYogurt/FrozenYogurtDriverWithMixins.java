@@ -1,10 +1,11 @@
 package FrozenYogurt;
 import java.util.Scanner;
-//Author: Mcandrew Okwei 6 September 2022
+
 /**
+ * validate user input in order to create a frozen yogurt object and fill it with attributes (Topping, price etc.)
  * 
  * @author Mcandrew Okwei
- *@version 1.0
+ *@version 0.6 (6 September 2022)
  */
 
 public class FrozenYogurtDriverWithMixins { 

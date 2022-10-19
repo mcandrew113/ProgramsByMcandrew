@@ -1,4 +1,4 @@
-//package ShapesProject;
+package ShapesProject;
 
 public class Circle2D extends Shape2D{
     public double radius ;

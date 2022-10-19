@@ -1,7 +1,8 @@
 package FrozenYogurt;      //Author Mcandrew Okwei 6 September 2022
 /**
+ * a class with all the methods needed to call a frozen yogurt object into another class
  * @author Mcandrew Okwei 
- * @version 1.0
+ * @version 1.0 (Octover 10 2022)
  * 
  * 
  *
@@ -38,6 +39,7 @@ private static String myMessage ="We appreciate you getting Frozen Yogurt";
 	}
 
 	/**
+	 * return name's value saved in stack
 	 * 
 	 * @return name's value saved in stack
 	 */
@@ -45,8 +47,9 @@ private static String myMessage ="We appreciate you getting Frozen Yogurt";
 		return name;
 		}
 	/**
+	 * return flavor stack value
 	 * 
-	 * @return memory location of flavor in stack
+	 * @return flavor
 	 */
 	public  String getYogurtFlavor() { //accessor
 		return flavor;
@@ -135,35 +138,9 @@ private static String myMessage ="We appreciate you getting Frozen Yogurt";
 	
 	
 	
-	/*Points      Item
-	----------  --------------------------------------------------------------
-	_____ / 10  Style
-	            + Code is indented correctly
-	            + Methods should be no longer than 1 page
-	            + Documentation: (written for another software developer)
-	              * All source code files include header block with description, author, version, etc.
-	              * Comments before each method
-	              * All non-trivial variables are commented
-	              * Comments included before major portions of code
-	_____ /     Compiles (max of 50% if it doesn't compile)
-	_____ /  8  Constructor-No Parameters and Accessor Methods Test
-	_____ / 13  Constructor and Accessors Test
-	_____ / 20  Mutators and Accessors Test
-	_____ / 13  toString() Test
-	_____ / 21  Input / Output Tests (including creating and using a FrozenYogurt object) 
-	_____ /  5  this (Keyword) Test
-	_____ /  8  Custom method (designed and called)
-	_____ /  2  Completed rubric (estimates for each line including hours spent, and signing your name to affirm it's your own work)
-
-	_____ /100  Total
-
-
-	_____  Approximate number of hours spent
-
-	I, (REPLACE WITH YOUR FULL NAME), affirm that the code that I submitted is my own work and that I did not receive help that was not authorized by the instructor.
 	
 	
 	
 	
-	*/
+	
 							

@@ -1,7 +1,6 @@
 package Shape;
 /**
  * Defines a basic shape with just area
- *
  * @author Hyrum D. Carroll
  * @version 0.3 (3/23/2022)
  */

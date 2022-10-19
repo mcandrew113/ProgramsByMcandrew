@@ -1,4 +1,10 @@
 package Doctor;
+/**
+ * practice polymorphism
+ * 
+ * @author Mcandrew Okwei
+ * @version 3.0 (September 30 2022)
+ */
 public class MedicalBillDriver{
 
     public static void displayBill( Doctor doc ){

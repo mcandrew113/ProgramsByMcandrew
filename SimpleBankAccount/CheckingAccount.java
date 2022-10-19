@@ -1,48 +1,62 @@
 package SimpleBankAccount;
-
+/**
+ * An extension of type SimpleBankAccount 
+ * 
+ * @class CheckingAccount
+ * @Author Mcandrew Okwei 8 October 2022
+ */
 public class CheckingAccount extends SimpleBankAccount {
     
-    public int checkNumber;
-    //SimpleBankAccount ba = new SimpleBankAccount();
+    private int checkNumber;    
     
+    SimpleBankAccount ba = new SimpleBankAccount();
     
-    public CheckingAccount() {}
-
-    @Override
-    public boolean  equals( Object obj){    
-        if (!(obj instanceof CheckingAccount)) {
-            return false;}
-            else if (obj instanceof CheckingAccount) {
-                CheckingAccount other = (CheckingAccount) obj;
-                if (this.getBalance() == other.getBalance() && this.getAccountId() == other.getAccountId() && this.checkNumber == other.checkNumber) {
-                    return true;}
-                else {
-                    return false;}
-            }
-            else {
-                return false;}
-        }
-
-    public CheckingAccount(double balance, String accountID) {        
-       this.deposit(balance);
-        this.setAccountId(accountID);
+    public CheckingAccount() {
+        ba.getBalance();
+        ba.setAccountId("");
     }
-    
+/**
+ * Use construtor to adjust checking account object
+ * 
+ * @param balance
+ * 
+ * <p> call deposit in this constructor to set initial balance</p>
+ * 
+ * @param accountID
+ * 
+ * <p> call setAccountId in this constructor to set the bank account</p>
+ */
+    public CheckingAccount(double balance, String accountID) {
+        ba.deposit(balance);
+        ba.setAccountId(accountID);
+    }
+    /**
+     * process a given check
+     * 
+     * @param checkNum 
+     * @param amount
+     * @return 
+     * 
+     * <p> true only if this check isn't used twice </p>
+     */
     public boolean processCheck(int checkNum, double amount ) {
         if (checkNum == checkNumber) 
         {            
             return false;
         } else {
             checkNumber = checkNum;
-            this.withdraw(amount); 
+            ba.withdraw(amount);
             return true;
             }
     }
     
-@Override
+/**
+ * call to string to return accountid balance & check# as a string
+ * 
+ * @return CheckingAccount()
+ */
    public String toString(){
-    super.toString();
-return "Checking Account:\n Balance for account " + this.getAccountId() + ":  $" + this.getBalance() + "\nLast processed check number:  " + checkNumber;
+return "Checking Account:" + ba.getAccountId() + "\n" + "Balance for account: $" + ba.balance + "\n" +  "Last processed check number:  " + checkNumber;
    }
     
 }
