@@ -33,4 +33,25 @@ public int sum3(int[] nums)
     }
         return sum;
 }
+public static int[] plusTwo(int[] a, int[] b)
+{ int [] both = new int [(a.length - 1) +(b.length - 1)];
+    for(int x = 0; x <a.length; x++){
+        for(int y = 0; y < b.length; y++){
+          both[x] = a[x];
+            both[x + y] = b[y];
+    }
+    }
+ return both;
+}
+
+          
+      
+     
+ 
+  public static void main(String[]args){
+   int [] a = {1,2};
+    int [] b = {3,4};
+
+    System.out.println(plusTwo(a,b));
+  }
 }

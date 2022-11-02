@@ -1,4 +1,4 @@
-package loopsMhm;
+package loopsPractice;
 
 
 public class loops{

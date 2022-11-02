@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Useful",
+            "request": "launch",
+            "mainClass": "UsefulMethods.Useful",
+            "projectName": "ProgramsByMcandrew"
+        },
+        {
+            "type": "java",
             "name": "Launch loops",
             "request": "launch",
             "mainClass": "loopsMhm.loops",

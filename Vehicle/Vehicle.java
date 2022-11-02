@@ -22,8 +22,7 @@ public class Vehicle{
  */
   public double getPrice( ){                        
     return price;                                  
-  }                                                 
-                                                 
+  }                                                                                                
 
 
   public static void main( String[] args ){         
